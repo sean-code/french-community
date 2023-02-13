@@ -50,18 +50,25 @@
 .menu-items li{
     list-style: none;
     margin-left: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+}
+
+.navbar{
+    background-color: #fff
 }
 
 .navbar a{
-    color: #444;
+    color: #000;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover{
     color: #117964;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 4px;
 }
 
 @media (max-width: 768px){
