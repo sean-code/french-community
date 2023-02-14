@@ -1,10 +1,9 @@
 
-
-const About = () => {
+const Team = () => {
     return(
         <>
         </>
     )
 };
 
-export default About;
+export default Team;
