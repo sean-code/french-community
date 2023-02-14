@@ -5,14 +5,16 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
+    <>
+    <NavBar />
     <Router>
-      <NavBar />
       <Routes>
-        <Route path='/#' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route></Route>
         <Route></Route>
       </Routes>
     </Router>
+    </>
   );
 }
 
@@ -20,11 +22,3 @@ export default App;
 
 
 
-{/* <Router>
-<NavBar />
-<Routes>
-  <Route path='/#' element={<Home />} />
-  <Route></Route>
-  <Route></Route>
-</Routes>
-</Router> */}
