@@ -5,9 +5,13 @@ import './home.css';
 
 const Home = () => {
   return(
-    <>
-     <Slider />
-    </>
+    <div>
+      <section>
+        <Slider />
+      </section>
+      <section>
+      </section>
+    </div>
   )
 }
 

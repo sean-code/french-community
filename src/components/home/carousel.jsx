@@ -6,8 +6,8 @@ import './home.css';
 const Slider = () => {
     return(
         <div className='carousel-page'>
-            <Carousel>
-                <Carousel.Item>
+            <Carousel fade indicators={false} controls={true} >
+                <Carousel.Item interval={1000}>
                     <img
                     style={{width:'10%'}}
                     className="d-block w-100"
@@ -20,7 +20,7 @@ const Slider = () => {
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"
                     src="https://media.istockphoto.com/id/1357827625/photo/diverse-group-of-happy-volunteers-walking-together-after-street-clean-up-community-service.jpg?b=1&s=170667a&w=0&k=20&c=1d6XINaI6wGa_o27Y80WIa-bXA63f_GZ9P6Z1FnFZ7Q="
@@ -32,7 +32,7 @@ const Slider = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={1000}>
                     <img
                     className="d-block w-100"
                     src="https://media.istockphoto.com/id/1403441234/photo/cheerful-teenagers-putting-their-hands-together-in-unity.jpg?b=1&s=170667a&w=0&k=20&c=0hmgD9uy3JjjdRLJeEx-9v5acz-DKJOAShd4JlDYmGs="
