@@ -60,7 +60,7 @@
 .navbar a{
     color: #000;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
 
@@ -151,8 +151,8 @@
 
     .navbar .menu-items li{
         margin-bottom: 1.8rem;
-        font-size: 1.1rem;
-        font-weight: 500;
+        font-size: 1.0rem;
+        font-weight: 300;
     }
 
     .logo{

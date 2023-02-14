@@ -1,5 +1,6 @@
+import { NavLink } from 'react-bootstrap';
 import './navbar.css';
-import image1 from './assets/Kifaransabg.jpg';
+// import image1 from './assets/Kifaransabg.jpg';
 
 function NavBar() {
   return (
@@ -13,11 +14,12 @@ function NavBar() {
                   <span class="line line3"></span>
           </div>
             <ul class="menu-items">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Category</a></li>
-              <li><a href="#">Menu</a></li>                <li><a href="#">Testimonial</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><NavLink to='/'>Home</NavLink></li>
+              <li><NavLink to='/about'>About</NavLink></li>
+              <li><NavLink to='/team'>Team</NavLink></li>
+              <li><NavLink to='/services'>Services</NavLink></li>
+              <li><NavLink to='/blog'>Blog</NavLink></li>
+              <li><NavLink to='/contact'>Contact</NavLink></li>
             </ul>
               <h1 class="logo">
                 {/* <img src={image1} alt='img' style={{width:'70px'}}/> */}
