@@ -3,11 +3,10 @@
 .carousel-page{
     text-align: center;
     position: relative;
-    /* padding-top: 30%; */
 }
 
 .carousel {
-    width:1200px;
+    width:1300px;
     height:400px;
     margin: auto;
     background-size: cover;
@@ -18,4 +17,9 @@
       width:auto;
       height:auto;
     }
+}
+
+/* Why Choose Us */
+.why-cards{
+    margin-top: 10%;
 }

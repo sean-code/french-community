@@ -1,5 +1,6 @@
 
 // import SimpleSlider from './carousel';
+import WhyCard from './cards';
 import Slider from './carousel';
 import './home.css';
 
@@ -10,6 +11,8 @@ const Home = () => {
         <Slider />
       </section>
       <section>
+        <h2>Why Choose Us</h2>
+        <WhyCard />
       </section>
     </div>
   )

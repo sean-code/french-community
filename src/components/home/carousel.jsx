@@ -6,7 +6,7 @@ import './home.css';
 const Slider = () => {
     return(
         <div className='carousel-page'>
-            <Carousel fade indicators={false} controls={true} >
+            <Carousel fade indicators={false} controls={false} >
                 <Carousel.Item interval={1000}>
                     <img
                     style={{width:'10%'}}
