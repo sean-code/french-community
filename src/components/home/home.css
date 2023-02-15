@@ -1,5 +1,63 @@
-/* Carousel */
+/* Home File */
+.section-2 h1{
+    font-weight: 700;
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 6px;
+
+}
+
+
+/* Carousel Segment */
+
 
 .carousel-page{
-    /* margin-bottom: 20%; */
+    margin: 0 10px 10px;
 }
+
+@media (min-width: 770px){
+    .carousel-page{
+        margin: 0 50px 50px;
+    }
+    
+}
+
+
+/* Why Choose Us Segment */
+.why-cards{
+    margin: 40px;
+    border-radius: 20%;
+}
+.card-components{
+    margin: 9px;
+    box-shadow: 1px 2px 5px #228356f0;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+/* Buttons */
+.view-button{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+  }
+  
+  .view-button p a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 12px;
+    background: #228356;
+    color: #ffff;
+    border: 1px solid #228356;
+    border-radius: 5px;
+   
+  }
+  

@@ -19,13 +19,14 @@
 }
 
 .navbar{
-    box-shadow: 0px 5px 10px 0px #aaa;
+    box-shadow: 0px 5px 10px 0px #130101;
     position: fixed;
     width: 100%;
-    background: #fff;
-    color: #000;
+    background-color: #178451;
+    color: #fff;
     opacity: 0.85;
     z-index: 100;
+    margin-bottom: 200%;
 }
 
 .navbar-container{
@@ -50,19 +51,15 @@
     font-size: 1.4rem;
 }
 
-.navbar{
-    background-color: #fff
-}
 
 .navbar a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover{
-    color: #117964;
     text-decoration: underline;
     text-decoration-color: orange;
     text-decoration-thickness: 4px;
@@ -114,7 +111,8 @@
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #333;
+        background: #353535;
+        
     }
     
     .navbar-container .hamburger-lines .line1{
@@ -133,7 +131,6 @@
 
     .navbar .menu-items{
         padding-top: 100px;
-        background: #fff;
         height: 100vh;
         max-width: 300px;
         transform: translate(-150%);
@@ -142,8 +139,9 @@
         margin-left: -40px;
         padding-left: 40px;
         transition: transform 0.5s ease-in-out;
-        box-shadow:  5px 0px 10px 0px #aaa;
+        box-shadow:  5px 0px 10px 0px #313131;
         overflow: scroll;
+        background-color: #228356;
     }
 
     .navbar .menu-items li{
