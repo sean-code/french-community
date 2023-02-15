@@ -7,20 +7,20 @@ const Slider = () => {
     return(
         <div className='carousel-page'>
             <Carousel fade indicators={false} controls={false} pause={false} >
-                <Carousel.Item interval={1000}>
+                <Carousel.Item interval={1200}>
                     <img
-                    style={{width:'10%', filter:'brightness(50%)'}}
+                    style={{width:'10%', height:'20%', filter:'brightness(50%)'}}
                     className="d-block w-100"
                     src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tbXVuaXR5JTIwc2VydmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h1 style={{textAlign:'left', marginBottom:'20%'}}>
+                    <h1 style={{textAlign:'center'}}>
                         Join Us Today<br />For a Better Tomorrow</h1>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={1000}>
+                <Carousel.Item interval={1200}>
                     <img
                      style={{width:'10%', filter:'brightness(50%)'}}
                     className="d-block w-100"
@@ -33,7 +33,7 @@ const Slider = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item interval={1000}>
+                <Carousel.Item interval={1200}>
                     <img
                      style={{width:'10%', filter:'brightness(50%)'}}
                     className="d-block w-100"
