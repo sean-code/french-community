@@ -26,6 +26,7 @@
     color: #000;
     opacity: 0.85;
     z-index: 100;
+    margin-bottom: 200%;
 }
 
 .navbar-container{

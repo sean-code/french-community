@@ -1,5 +1,6 @@
 /* Home File */
 .section-2 h1{
+    font-weight: 700;
     text-align:center;
     text-decoration: underline;
     text-decoration-color: orange;
@@ -9,8 +10,26 @@
 
 
 
+/* Carousel Segment */
+.carousel-page{
+    margin: 0 10px 10px;
+}
+
+@media (min-width: 770px){
+    .carousel-page{
+        margin: 0 50px 50px;
+    }
+    
+}
+
 /* Why Choose Us */
+.why-cards{
+    margin: 40px;
+    border-radius: 20%;
+}
 .card-components{
-    margin: 6px;
+    margin: 9px;
+    box-shadow: 1px 2px 5px #228356f0;
+    
 }
 

@@ -9,7 +9,7 @@ const Slider = () => {
             <Carousel fade indicators={false} controls={false} pause={false} >
                 <Carousel.Item interval={1200}>
                     <img
-                    style={{width:'10%', height:'20%', filter:'brightness(50%)'}}
+                    style={{width:'1%', height:'20%', filter:'brightness(50%)'}}
                     className="d-block w-100"
                     src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tbXVuaXR5JTIwc2VydmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                     alt="First slide"
