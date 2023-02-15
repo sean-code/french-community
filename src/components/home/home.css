@@ -1,38 +1,16 @@
+/* Home File */
+.section-2 h1{
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 6px;
 
-
-
-
-
-/* Carousel */
-
-/* .carousel-page{
-    text-align: center;
-    position: relative;
 }
 
-.carousel {
-    width:1300px;
-    height:400px;
-    margin: auto;
-    background-size: cover;
+
+
+/* Why Choose Us */
+.card-components{
+    margin: 6px;
 }
 
-@media (max-width: 900px) {
-    .carousel {
-      width:auto;
-      height:auto;
-    }
-} */
-
-
-
-  
-  
- 
-
-
-
-/* Why Choose Us
-.why-cards{
-    margin-top: 10%;
-} */
