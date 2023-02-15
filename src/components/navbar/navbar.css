@@ -22,8 +22,8 @@
     box-shadow: 0px 5px 10px 0px #130101;
     position: fixed;
     width: 100%;
-    background-color: #2db096;
-    color: #000;
+    background-color: #178451;
+    color: #fff;
     opacity: 0.85;
     z-index: 100;
     margin-bottom: 200%;
@@ -53,7 +53,7 @@
 
 
 .navbar a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
@@ -141,7 +141,7 @@
         transition: transform 0.5s ease-in-out;
         box-shadow:  5px 0px 10px 0px #313131;
         overflow: scroll;
-        background-color: #2db096;
+        background-color: #228356;
     }
 
     .navbar .menu-items li{
