@@ -1,5 +1,6 @@
 
 // import SimpleSlider from './carousel';
+import Footer from '../footer/footer';
 import Buttons from './buttons';
 import WhyCard from './cards';
 import Slider from './carousel';
@@ -17,6 +18,9 @@ const Home = () => {
       </section>
       <section className='section-3'>
         <Buttons />
+      </section>
+      <section className='section-4' style={{marginTop:'10%'}}>
+        <Footer />
       </section>
     </div>
   )
