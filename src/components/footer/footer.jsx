@@ -1,13 +1,16 @@
 import './footer.css';
+import twitter from './assets/twitter.svg';
+import instagram from './assets/instagram.svg';
+import facebook from './assets/facebook.svg';
+import tiktok from './assets/tiktok.svg';
+import youtube from './assets/youtube.svg';
 
 const Footer = () =>{
     return(
         <>
             <footer class="footer-distributed">
                 <div class="footer-left">
-
                 <h3>Company<span>logo</span></h3>
-
                 <p class="footer-links">
                     <a href="#/" class="link-1">Home</a>
                     <a href="#/">About</a>
@@ -39,11 +42,11 @@ const Footer = () =>{
                         Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
                     </p>
                     <div class="footer-icons">
-                        <a href="#/"><i class="fa fa-facebook"></i></a>
-                        <a href="#/"><i class="fa fa-twitter"></i></a>
-                        <a href="#/"><i class="fa fa-linkedin"></i></a>
-                        <a href="#/"><i class="fa-brands fa-tiktok"></i></a>
-                        <img 
+                        <a href="#/"><img src={twitter} alt='twitter' /></a>
+                        <a href="#/"><img src={instagram} alt='instagram' /></a>
+                        <a href="#/"><img src={facebook} alt='facebook' /></a>
+                        <a href="#/"><img src={tiktok} alt='tiktok' /></a>
+                        <a href='#/'><img src={youtube} alt='youtube' /></a>
                     </div>
                 </div>
             </footer>
