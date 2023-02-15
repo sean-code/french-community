@@ -1,0 +1,12 @@
+.about-container{
+    margin-top: 30px;
+}
+
+
+.about-1 h1{
+    font-weight: 700;
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 6px;
+}
