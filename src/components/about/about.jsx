@@ -9,7 +9,7 @@ const About = () => {
                 <h1>ABOUT US?</h1>
             </section>
             <section>
-                {/* <Footer /> */}
+                <Footer />
             </section>
         </div>
     )

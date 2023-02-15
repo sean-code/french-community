@@ -5,7 +5,7 @@ import './home.css';
 
 const Slider = () => {
     return(
-        <div className='carousel-page'>
+        <div className='carousel-page' style={{marginTop:'2%'}}>
             <Carousel fade indicators={false} controls={false} pause={false} >
                 <Carousel.Item interval={1200}>
                     <img
