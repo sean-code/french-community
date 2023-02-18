@@ -1,3 +1,4 @@
+import Footer from '../footer/footer';
 import './contact.css';
 
 const Contact = () => {
@@ -7,7 +8,6 @@ const Contact = () => {
                 <form action="/" className="decor">
                     <div className="form-left-decoration"></div>
                     <div className="form-right-decoration"></div>
-                    <div className="circle"></div>
                     <div className="form-inner">
                         <h1>Contact Us</h1>
                         <input type="text" placeholder="First Name:" required />
@@ -19,6 +19,7 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
+            <Footer />
         </>
     )
 };
