@@ -5,22 +5,17 @@
     text-decoration: underline;
     text-decoration-color: orange;
     text-decoration-thickness: 6px;
-
 }
 
 
 /* Carousel Segment */
-
-
 .carousel-page{
     margin: 0 10px 10px;
 }
-
 @media (min-width: 770px){
     .carousel-page{
         margin: 0 50px 50px;
     }
-    
 }
 
 

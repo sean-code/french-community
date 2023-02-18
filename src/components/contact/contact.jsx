@@ -9,13 +9,13 @@ const Contact = () => {
                     <div className="form-right-decoration"></div>
                     <div className="circle"></div>
                     <div className="form-inner">
-                        <h1>Contact us</h1>
-                        <input type="text" placeholder="First Name" />
-                        <input type="text" placeholder="Last Name" />
-                        <input type="email" placeholder="Email" />
-                        <input type="number" placeholder="Phone Number" />
-                        <textarea placeholder="Your Message..." rows="5"></textarea>
-                        <button type="submit" href="/">Send</button>
+                        <h1>Contact Us</h1>
+                        <input type="text" placeholder="First Name:" required />
+                        <input type="text" placeholder="Last Name:" required />
+                        <input type="email" placeholder="Email:" required />
+                        <input type="number" placeholder="Phone Number:" required />
+                        <textarea placeholder="Your Message..." rows="5" required ></textarea>
+                        <button className='contact-button' type="submit" href="/">Send</button>
                     </div>
                 </form>
             </div>
