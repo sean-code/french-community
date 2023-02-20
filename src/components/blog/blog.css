@@ -1,0 +1,18 @@
+
+.blogs-header{
+    text-align: center;
+    font-weight: 800;
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 6px;
+}
+.blogs{
+    margin: 120px;
+    border-radius: 20%;
+    max-width: 80%;
+}
+
+.blog-cards{
+    
+}
