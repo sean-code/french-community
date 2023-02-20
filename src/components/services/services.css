@@ -16,14 +16,61 @@
     display: grid;
     padding: 2rem;
     grid-template-columns: 300px 1fr;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
     max-width: 800px;
     margin: 0 auto;
     font: 500 100%/1.5 system-ui;
 }
 
-img {
+.service-cards img {
     max-width: 100%;
     height: auto;
+    margin-bottom: 100px;
 }
+
+.services-button{
+    margin-top: 10px;
+}
+.services-button a{
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 800;
+    padding: 3px;
+    background: #228356;
+    color: #ffff;
+    border: 1px solid #228356;
+    border-radius: 5px;
+}
+
+
+/* Media Queries */
+@media (max-width: 650px) {
+    .service-cards{
+        display: grid;
+        padding: 2rem;
+        grid-template-columns: 100px 1fr;
+        gap: 1rem;
+        max-width: 800px;
+        margin: 0 auto;
+        font: 500 100%/1.5 system-ui;
+    }
+    .services-cards {
+      display: block;
+      font-size: 80%;
+    }
+    .service-cards{
+        width: 100%;
+        height: 100%;
+    }
+    .service-cards p {
+      position: relative;
+      margin: -3rem 0 2rem 1rem;
+      padding: 0.5rem;
+      background: rgba(white, 0.8);
+    }
+
+    .services-button{
+        padding-top: 2%;
+    }
+  }
