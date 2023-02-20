@@ -1,0 +1,29 @@
+.services-1{
+    margin-bottom: 50px;
+}
+
+.services-1 h1{
+    text-align: center;
+    font-weight: 700;
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 6px;
+}
+
+
+.service-cards{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
