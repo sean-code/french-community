@@ -174,8 +174,14 @@
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 650px){
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .logo{
+        font-size: 1.4rem;
     }
 }
