@@ -1,11 +1,26 @@
 
 
 
-.wrapper{
+.wrapper-1{
   margin-top: 20px;
 }
 
-.wrapper h1{
+.wrapper-2{
+    margin-top: 10px;
+    margin-bottom: 80px;
+  }
+
+.wrapper-1 h1{
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 700;
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 6px;
+}
+
+.wrapper-2 h1{
     margin-bottom: 60px;
     text-align: center;
     font-weight: 700;
@@ -28,10 +43,11 @@
   margin: 5px;
   margin-bottom: 50px;
   width: 300px;
-  padding: 20px;
+  padding: 30px;
   line-height: 20px;
   color: #000;  
   position: relative;
+  box-shadow: 0px 6px 13px #228356ec;
 }
 
 .team .team_member h3{

@@ -3,30 +3,43 @@ import './team.css';
 const Team = () => {
     return(
         <>
-            <div class="wrapper">
-                <h1>Our Team</h1>
-                <div class="team">
-                    <div class="team_member">
-                        <div class="team_img">
-                            <img src="https://i.imgur.com/2pGPLrl.png" alt="Team_image" />
+            <div className="wrapper-1">
+                <h1>Our Founder</h1>
+                <div className="team">
+                    <div className="team_member">
+                        <div className="team_img">
+                            <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
                         </div>
-                            <h3>Paul Doe</h3>
-                            <p class="role">UI developer</p>
+                            <h3>Michael McLusky </h3>
+                            <p className="role">Founder | CEO</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
                     </div>
-                    <div class="team_member">
-                        <div class="team_img">
+                </div>
+            </div>
+            <div className="wrapper-2">
+                <h1>Our Team</h1>
+                <div className="team">
+                    <div className="team_member">
+                        <div className="team_img">
+                            <img src="https://i.imgur.com/2pGPLrl.png" alt="Team_image" />
+                        </div>
+                            <h3>Tobi Bamtefa</h3>
+                            <p className="role">UI developer</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+                    </div>
+                    <div className="team_member">
+                        <div className="team_img">
                             <img src="https://i.imgur.com/jQj1I8E.png" alt="Team_image" />
                         </div>
-                        <h3>Rosie Meg</h3>
-                            <p class="role">Tester</p>
+                        <h3>Nicole Galicia</h3>
+                            <p className="role">Tester</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
-                        <div class="team_member">
-                            <div class="team_img">
+                        <div className="team_member">
+                            <div className="team_img">
                                 <img src="https://i.imgur.com/2Necikc.png" alt="Team_image" />
                             </div>
-                            <h3>Alex Wood</h3>
-                            <p class="role">Support Lead</p>
+                            <h3>Taylor Handley</h3>
+                            <p className="role">Support Lead</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
                     </div>
                 </div>
