@@ -9,6 +9,22 @@
     text-decoration-thickness: 6px;
 }
 
+
+.media-icons{
+    /* margin-top: 25px; */
+  }
+  
+.media-icons a{
+    display: inline;
+    /* justify-content: center; */
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    /* line-height: 35px; */
+    margin: 5% 2% 5% 5%;
+  }
+
 .contact-container{
     min-height: 100vh;
     padding: 0;
