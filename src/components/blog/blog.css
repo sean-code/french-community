@@ -6,13 +6,23 @@
     text-decoration: underline;
     text-decoration-color: orange;
     text-decoration-thickness: 6px;
+    margin-bottom: 20px;
 }
 .blogs{
-    margin: 120px;
+    margin: 20px;
     border-radius: 20%;
-    max-width: 80%;
+    /* max-width: 80%; */
+    margin-bottom: 50px;
+}
+
+.blog-groups{
+    margin-bottom: 15px;
 }
 
 .blog-cards{
-    
+    margin-right: 10px;
+}
+
+.blog-images{
+    border-radius: 10px;
 }
