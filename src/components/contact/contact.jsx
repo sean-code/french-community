@@ -3,12 +3,16 @@ import './contact.css';
 const Contact = () => {
     return(
         <>
+            <div className='contact-section1'>
+                <h1>Contact Us</h1>
+            
+
+            </div>
             <div className='contact-container'>
                 <form action="/" className="decor">
                     <div className="form-left-decoration"></div>
                     <div className="form-right-decoration"></div>
                     <div className="form-inner">
-                        <h1>Contact Us</h1>
                         <input type="text" placeholder="First Name:" required />
                         <input type="text" placeholder="Last Name:" required />
                         <input type="email" placeholder="Email:" required />
