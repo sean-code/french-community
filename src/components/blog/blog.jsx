@@ -1,6 +1,7 @@
 import './blog.css';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import { LoremIpsum } from "react-lorem-ipsum";
 
 
 const Blog = () => {
@@ -22,7 +23,7 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
                 <Card className='blog-cards'>
-                    <Card.Img variant="top" src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8TG92ZSUyMHRvJTIwbGVhcm58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" />
+                    <Card.Img  className='blog-images' variant="top" src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8TG92ZSUyMHRvJTIwbGVhcm58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" />
                     <Card.Body>
                     <Card.Title style={{textAlign:'center'}}>Affordability</Card.Title>
                     <Card.Text className='card-text'>
@@ -31,7 +32,7 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
                 <Card className='blog-cards'>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/892403280/photo/learn-french-education-concept.jpg?b=1&s=170667a&w=0&k=20&c=ixVWpLCWUfFtWei8DtWpogKLC64YPT3YZCFZ8QVKtsY=" />
+                    <Card.Img  className='blog-images' variant="top" src="https://media.istockphoto.com/id/892403280/photo/learn-french-education-concept.jpg?b=1&s=170667a&w=0&k=20&c=ixVWpLCWUfFtWei8DtWpogKLC64YPT3YZCFZ8QVKtsY=" />
                     <Card.Body>
                     <Card.Title style={{textAlign:'center'}}>Reciprocal Communication</Card.Title>
                     <Card.Text className='card-text'>
@@ -41,7 +42,7 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
                 <Card className='blog-cards'>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/892403280/photo/learn-french-education-concept.jpg?b=1&s=170667a&w=0&k=20&c=ixVWpLCWUfFtWei8DtWpogKLC64YPT3YZCFZ8QVKtsY=" />
+                    <Card.Img  className='blog-images' variant="top" src="https://media.istockphoto.com/id/892403280/photo/learn-french-education-concept.jpg?b=1&s=170667a&w=0&k=20&c=ixVWpLCWUfFtWei8DtWpogKLC64YPT3YZCFZ8QVKtsY=" />
                     <Card.Body>
                     <Card.Title style={{textAlign:'center'}}>Reciprocal Communication</Card.Title>
                     <Card.Text className='card-text'>
@@ -53,7 +54,7 @@ const Blog = () => {
             </CardGroup>
             <CardGroup>
                 <Card className='blog-cards'>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/502641289/photo/hello-hello.jpg?s=612x612&w=0&k=20&c=a6b-fV5WQkx_xUCG-JKUnkHrnf4GDxEepCDKHfW_t7I=" />
+                    <Card.Img  className='blog-images' variant="top" src="https://media.istockphoto.com/id/502641289/photo/hello-hello.jpg?s=612x612&w=0&k=20&c=a6b-fV5WQkx_xUCG-JKUnkHrnf4GDxEepCDKHfW_t7I=" />
                     <Card.Body>
                     <Card.Title style={{textAlign:'center'}}>Fun and Interactive</Card.Title>
                     <Card.Text className='card-text'>
@@ -62,7 +63,7 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
                 <Card className='blog-cards'>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/1148799429/photo/learn-francais-word.jpg?s=612x612&w=0&k=20&c=XlBl8ajnZIWUoR0rPSv2FjEwmecxO9-dz98T6djx6_I=" />
+                    <Card.Img  className='blog-images' variant="top" src="https://media.istockphoto.com/id/1148799429/photo/learn-francais-word.jpg?s=612x612&w=0&k=20&c=XlBl8ajnZIWUoR0rPSv2FjEwmecxO9-dz98T6djx6_I=" />
                     <Card.Body>
                     <Card.Title style={{textAlign:'center'}}>French in French</Card.Title>
                     <Card.Text className='card-text'>
@@ -71,7 +72,7 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
                 <Card className='blog-cards'>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/899192146/photo/group-of-five-peoples-in-silhouettes-at-sunset.jpg?s=612x612&w=0&k=20&c=7s6FTgu2LSxqTlifcnwC2hLr6vQEOxasAoE-XE2bW4g=" />
+                    <Card.Img  className='blog-images' variant="top" src="https://media.istockphoto.com/id/899192146/photo/group-of-five-peoples-in-silhouettes-at-sunset.jpg?s=612x612&w=0&k=20&c=7s6FTgu2LSxqTlifcnwC2hLr6vQEOxasAoE-XE2bW4g=" />
                     <Card.Body>
                     <Card.Title style={{textAlign:'center'}}>Passionate Community</Card.Title>
                     <Card.Text className='card-text'>
@@ -80,12 +81,19 @@ const Blog = () => {
                     </Card.Body>
                 </Card>
                 <Card className='blog-cards'>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/892403280/photo/learn-french-education-concept.jpg?b=1&s=170667a&w=0&k=20&c=ixVWpLCWUfFtWei8DtWpogKLC64YPT3YZCFZ8QVKtsY=" />
+                    <Card.Img  className='blog-images' variant="top" src="https://media.istockphoto.com/id/892403280/photo/learn-french-education-concept.jpg?b=1&s=170667a&w=0&k=20&c=ixVWpLCWUfFtWei8DtWpogKLC64YPT3YZCFZ8QVKtsY=" />
                     <Card.Body>
-                    <Card.Title style={{textAlign:'center'}}>Reciprocal Communication</Card.Title>
+                    <Card.Title style={{textAlign:'center'}}>
+                        <LoremIpsum
+                            avgWordsPerSentence={2}
+                            avgSentencesPerParagraph={1}
+                            startWithLoremIpsum="false"
+                        />
+                    </Card.Title>
                     <Card.Text className='card-text'>
-                    We facilitate language learning and teaching
-                    in different ways as we encourage reciprocal communication between all levels of french in terms of learning and teaching
+                    <LoremIpsum 
+                        avgWordsPerSentence={2}
+                    />
                     </Card.Text>
                     </Card.Body>
                 </Card>
