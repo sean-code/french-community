@@ -6,23 +6,37 @@
     text-decoration: underline;
     text-decoration-color: orange;
     text-decoration-thickness: 6px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 .blogs{
-    margin: 20px;
+    margin: 50px;
     border-radius: 20%;
-    /* max-width: 80%; */
+    max-width: 100%;
     margin-bottom: 50px;
 }
 
 .blog-groups{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .blog-cards{
     margin-right: 10px;
+    box-shadow: 0px 2px 10px #228356ec;
 }
 
 .blog-images{
     border-radius: 10px;
+    width: 100%;
+}
+
+.blogs-button a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 5px;
+    background: #228356;
+    color: #ffff;
+    border: 1px solid #228356;
+    border-radius: 5px;
 }
