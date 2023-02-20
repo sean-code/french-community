@@ -16,11 +16,8 @@ const Home = () => {
         <h1>WHY CHOOSE US?</h1>
         <WhyCard />
       </section>
-      <section className='section-3'>
+      <section className='section-3' style={{ marginTop:'5%', marginBottom:'12%'}}>
         <Buttons />
-      </section>
-      <section className='section-4' style={{marginTop:'10%'}}>
-        <Footer />
       </section>
     </div>
   )

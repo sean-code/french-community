@@ -1,4 +1,3 @@
-import Footer from "../footer/footer";
 import './about.css';
 
 
@@ -9,7 +8,6 @@ const About = () => {
                 <h1>ABOUT US?</h1>
             </section>
             <section>
-                {/* <Footer /> */}
             </section>
         </div>
     )

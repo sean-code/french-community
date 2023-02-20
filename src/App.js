@@ -7,6 +7,7 @@ import Team from './components/team/team';
 import Services from './components/services/services';
 import Blog from './components/blog/blog';
 import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/contact' element={<Contact />}></Route>
       </Routes>
     </Router>
+    <Footer />
     </>
   );
 }
