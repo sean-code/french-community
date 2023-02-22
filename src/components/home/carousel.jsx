@@ -7,6 +7,19 @@ const Slider = () => {
     return(
         <div className='carousel-page'>
             <Carousel fade indicators={false} controls={false} pause={false} >
+            <Carousel.Item interval={1900}>
+                    <img
+                    style={{width:'10%', height:'20%', filter:'brightness(50%)'}}
+                    className="d-block w-100"
+                    src="https://media.istockphoto.com/id/1356385563/photo/people-in-a-meeting-or-group-therapy.jpg?s=612x612&w=0&k=20&c=Pima7ST7FgnPKjE6oRyhlTwb5hO1dnavAb7lQWbjOdc="
+                    alt="First slide"
+                    />
+                    <Carousel.Caption className='carousel-caption'>
+                    <h1 style={{}}>
+                        Welcome</h1>
+                    <p>Wilkomen, Bienvenue, Bienvenidos interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
                 <Carousel.Item interval={1900}>
                     <img
                     style={{width:'10%', height:'20%', filter:'brightness(50%)'}}
@@ -43,7 +56,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption className='carousel-caption'>
                         <h1 style={{}}>
-                            Our Passionate Brotherhood and Community</h1>
+                            Our Passionate Brotherhood</h1>
                         <p>We are highly fun and interactive</p>
                     </Carousel.Caption>
                 </Carousel.Item>

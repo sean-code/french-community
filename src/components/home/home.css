@@ -14,13 +14,13 @@
 }
 
 
-@media (min-width: 800px){
+@media (min-width: 900px){
     .carousel-page{
         /* margin: 0 50px 50px; */
-        margin: 10px 100px 10px 100px;
+        margin: 1px 100px 10px 100px;
     }
     .carousel-caption{
-        margin: 300px;
+        margin: 210px;
     }
     .carousel-caption h1{
         font-size: 3.0rem;
