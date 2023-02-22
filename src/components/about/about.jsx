@@ -21,6 +21,9 @@ const About = () => {
                 </p>
                 <img src='https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fENvbW11bml0eSUyMGFuZCUyMHNvY2lldHklMjBjbHVifGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60' />
             </section>
+            <section className='about-2'>
+                <h1 style={{textAlign:'center'}}>OUR OBJECTIVES</h1>
+            </section>
         </div>
     )
 };
