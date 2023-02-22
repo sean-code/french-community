@@ -10,11 +10,20 @@
 
 /* Carousel Segment */
 .carousel-page{
-    margin: 0 10px 10px;
+    margin: 0 20px 20px;
 }
-@media (min-width: 770px){
+
+
+@media (min-width: 800px){
     .carousel-page{
-        margin: 0 50px 50px;
+        /* margin: 0 50px 50px; */
+        margin: 10px 100px 10px 100px;
+    }
+    .carousel-caption{
+        margin: 300px;
+    }
+    .carousel-caption h1{
+        font-size: 3.0rem;
     }
 }
 
@@ -53,6 +62,18 @@
     color: #ffff;
     border: 1px solid #228356;
     border-radius: 5px;
-   
   }
   
+  @media (max-width: 500px){
+    .view-button p a{
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 800;
+        padding: 7px;
+        background: #228356;
+        color: #ffff;
+        border: 1px solid #228356;
+        border-radius: 5px;
+      }
+
+  }
