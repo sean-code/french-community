@@ -8,7 +8,7 @@ const Blog = () => {
   return (
     <>
         <div className='blogs-header'>
-            <h1><b>Read Our Blogs</b></h1>
+            <h1><b>READ OUR BLOGS</b></h1>
         </div>
         <div className='blogs' style={{marginBottom:'40px'}}>
             <CardGroup className='blog-groups'>

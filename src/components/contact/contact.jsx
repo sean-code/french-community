@@ -7,7 +7,7 @@ const Contact = () => {
     return(
         <>
             <div className='contact-section1'>
-                <h1>Contact Us</h1>
+                <h1>CONTACT US</h1>
                 <h2 style={{textAlign:'center', marginTop:'20px'}}>We'd love to hear from you</h2>
                 <p style={{textAlign:'center', marginTop:'10px', fontSize:'1.2rem'}}>
                     Have you any question in mind or want to enquire?<br/>

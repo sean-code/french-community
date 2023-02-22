@@ -4,7 +4,7 @@ const Team = () => {
     return(
         <>
             <div className="wrapper-1">
-                <h1>Our Founder</h1>
+                <h1>OUR FOUNDER</h1>
                 <div className="team">
                     <div className="team_member">
                         <div className="team_img">
@@ -17,7 +17,7 @@ const Team = () => {
                 </div>
             </div>
             <div className="wrapper-2">
-                <h1>Our Team</h1>
+                <h1>OUR TEAM</h1>
                 <div className="team">
                     <div className="team_member">
                         <div className="team_img">
