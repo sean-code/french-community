@@ -34,7 +34,7 @@
 }
 
 .footer-distributed h3 span{
-  color:  lightseagreen;
+  color:  rgb(19, 255, 243);
 }
 
 /* Footer links */
@@ -125,7 +125,7 @@
 
 .footer-distributed .footer-company-about{
   line-height: 20px;
-  color:  #92999f;
+  color:  #fff;
   font-size: 13px;
   font-weight: normal;
   margin: 0;

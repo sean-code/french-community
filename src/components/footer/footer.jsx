@@ -10,7 +10,7 @@ const Footer = () =>{
         <>
             <footer className="footer-distributed">
                 <div className="footer-left">
-                <h3>Company<span>logo</span></h3>
+                    <h3>French<span> Community</span></h3>
                 <p className="footer-links">
                     <a href="#/" className="link-1">Home</a>
                     <a href="#/">About</a>
@@ -24,15 +24,15 @@ const Footer = () =>{
                 <div className="footer-center">
                 <div>
                     <i className="fa fa-map-marker"></i>
-                    <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+                    <p><span>444 S. Cedros Ave</span> Monrovia Street, Nairobi</p>
                 </div>
                 <div>
                     <i className="fa fa-phone"></i>
-                    <p>+1.555.555.5555</p>
+                    <p>+254.555.555.5555</p>
                 </div>
                     <div>
                         <i className="fa fa-envelope"></i>
-                        <p><a href="mailto:support@company.com">support@company.com</a></p>
+                        <p><a href="mailto:support@company.com">french@company.com</a></p>
                     </div>
 
                 </div>

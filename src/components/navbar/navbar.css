@@ -19,8 +19,6 @@
 }
 
 .navbar{
-    /* box-shadow: 0px 5px 10px 0px #130101; */
-    /* position: relative; */
     width: 100%;
     background-color: #178451;
     color: #fff;
@@ -42,6 +40,10 @@
 .logo{
     order: 1;
     font-size: 2.3rem;
+}
+
+.logo span{
+    color:  rgb(19, 255, 243);
 }
 
 .menu-items li{

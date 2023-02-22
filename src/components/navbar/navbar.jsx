@@ -21,7 +21,7 @@ function NavBar() {
               <li><a href='/contact'>Contact</a></li>
             </ul>
               <h1 class="logo">
-                French Community
+                French<span> Community</span>
               </h1>
         </div>
     </nav>

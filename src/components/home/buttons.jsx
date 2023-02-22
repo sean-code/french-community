@@ -1,17 +1,18 @@
+import { Link } from 'react-router-dom';
 import './home.css';
 
 const Buttons = () =>{
     return(
         <div className='view-button'>
             <p>
-                <a href="/#" target="_blank">
+                <Link to="http://localhost:3000/services" target="_blank">
                     View Our Services ➤ 
-                </a>
+                </Link>
             </p>
             <p>
-                <a href="/#" target="_blank">
+                <Link href="http://localhost:3000/about" target="_blank">
                     View More About Us ➤ 
-                </a>
+                </Link>
             </p>
       </div>
     )
