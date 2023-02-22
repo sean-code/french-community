@@ -30,7 +30,7 @@ const Blog = () => {
                         <div className='blogs-button'>
                             <p>
                                 <a href="/#" target="_blank">
-                                    Read More ➤ 
+                                    Coming Soon ➤ 
                                 </a>
                             </p>
                         </div>
@@ -54,7 +54,7 @@ const Blog = () => {
                         <div className='blogs-button'>
                             <p>
                                 <a href="/#" target="_blank">
-                                    Read More ➤ 
+                                    Coming Soon ➤ 
                                 </a>
                             </p>
                         </div>
@@ -78,7 +78,7 @@ const Blog = () => {
                         <div className='blogs-button'>
                             <p>
                                 <a href="/#" target="_blank">
-                                    Read More ➤ 
+                                    Coming Soon ➤ 
                                 </a>
                             </p>
                         </div>
@@ -102,7 +102,7 @@ const Blog = () => {
                         <div className='blogs-button'>
                             <p>
                                 <a href="/#" target="_blank">
-                                    Read More ➤ 
+                                    Coming Soon ➤ 
                                 </a>
                             </p>
                         </div>
@@ -128,7 +128,7 @@ const Blog = () => {
                         <div className='blogs-button'>
                             <p>
                                 <a href="/#" target="_blank">
-                                    Read More ➤ 
+                                    Coming Soon ➤ 
                                 </a>
                             </p>
                         </div>
@@ -152,7 +152,7 @@ const Blog = () => {
                         <div className='blogs-button'>
                             <p>
                                 <a href="/#" target="_blank">
-                                    Read More ➤ 
+                                    Coming Soon ➤ 
                                 </a>
                             </p>
                         </div>
@@ -176,7 +176,7 @@ const Blog = () => {
                         <div className='blogs-button'>
                             <p>
                                 <a href="/#" target="_blank">
-                                    Read More ➤ 
+                                    Coming Soon ➤ 
                                 </a>
                             </p>
                         </div>
@@ -200,7 +200,7 @@ const Blog = () => {
                         <div className='blogs-button'>
                             <p>
                                 <a href="/#" target="_blank">
-                                    Read More ➤ 
+                                    Coming Soon ➤ 
                                 </a>
                             </p>
                         </div>
