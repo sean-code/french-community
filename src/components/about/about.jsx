@@ -1,5 +1,6 @@
 import './about.css';
 import Objectives from './objectives';
+import { Link } from 'react-router-dom';
 
 
 
@@ -25,6 +26,15 @@ const About = () => {
             <section className='about-2'>
                 <h1 style={{textAlign:'center', fontWeight:'800'}}>OUR OBJECTIVES</h1>
                 <Objectives />
+            </section>
+            <section>
+            <div className='view-button' style={{marginTop:'90px', marginBottom:'20px'}}>
+                <p>
+                    <Link to="http://localhost:3000/services" target="_blank">
+                        View Our Services ➤ 
+                    </Link>
+                </p>
+            </div>
             </section>
         </div>
     )
