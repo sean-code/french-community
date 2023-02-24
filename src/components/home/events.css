@@ -1,0 +1,37 @@
+.events-section{
+    margin-top: 40px;
+  }
+  .events-card{
+    border: 2px solid #1D2130;
+    margin: 10px 4px;
+    transition: .6s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-block {
+     padding: 10px;
+  }
+  
+  .scrollcards {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      background: transparent;
+  }
+  
+  div.scrollcards .events-card{
+      display: inline-block;
+      padding: 14px;
+      text-decoration: none;
+      height: auto; 
+      width: 300px;
+  }
+  

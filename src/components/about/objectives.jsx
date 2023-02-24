@@ -5,8 +5,8 @@ import './objectives.css';
 
 function Objectives() {
   return (
-    <Row xs={1} md={2} className="g-2" style={{marginBottom:'20px'}}>
-        <Col style={{maxWidth:'95%'}}>
+    <Row xs={1} md={2} className="g-3" style={{marginBottom:'20px'}}>
+        <Col style={{maxWidth:'100%'}}>
           <Card>
             <Card.Body className='objectives-body'>
               <Card.Title className='objectives-title'>Meet and gather the French family</Card.Title>
@@ -26,7 +26,7 @@ function Objectives() {
             </Card.Body>
           </Card>
         </Col>
-        <Col style={{maxWidth:'95%'}}>
+        <Col style={{maxWidth:'100%'}}>
           <Card>
             <Card.Body className='objectives-body'>
               <Card.Title className='objectives-title'>Engage the community</Card.Title>

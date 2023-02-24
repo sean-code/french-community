@@ -1,9 +1,9 @@
 
 // import SimpleSlider from './carousel';
-import Footer from '../footer/footer';
 import Buttons from './buttons';
 import WhyCard from './cards';
 import Slider from './carousel';
+import Events from './events';
 import './home.css';
 
 const Home = () => {
@@ -16,8 +16,11 @@ const Home = () => {
         <h1>WHY CHOOSE US?</h1>
         <WhyCard />
       </section>
-      <section className='section-3' style={{ marginTop:'5%', marginBottom:'12%'}}>
+      <section className='section-3' style={{ marginTop:'5%', marginBottom:'20px'}}>
         <Buttons />
+      </section>
+      <section>
+        <Events />
       </section>
     </div>
   )
