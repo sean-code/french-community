@@ -10,8 +10,8 @@ const Events = () =>{
                             <div className="events-card">
                                 <img className="card-img-top" src="http://via.placeholder.com/350x150" />
                                 <div className="card-block">
-                                    <h4 className="card-title">Card title</h4>
-                                    <p className="card-text">Text Here</p>
+                                    <h4 className="card-title">Event Name</h4>
+                                    <p className="card-text">Date appears here</p>
                                 </div>
                             </div>
                             <div className="events-card">
