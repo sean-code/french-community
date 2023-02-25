@@ -30,8 +30,8 @@ function WhyCard() {
                 <Card.Body>
                 <Card.Title style={{fontWeight:'700', textAlign:'center'}}>Reciprocal Communication</Card.Title>
                 <Card.Text className='card-text'>
-                We facilitate language learning and teaching
-                in different ways as we encourage reciprocal communication between all levels of french in terms of learning and teaching
+                    We facilitate language learning and teaching
+                    in different ways as we encourage reciprocal communication between all levels of french in terms of learning and teaching
                 </Card.Text>
                 </Card.Body>
             </Card>
@@ -60,7 +60,7 @@ function WhyCard() {
                 <Card.Body>
                 <Card.Title style={{fontWeight:'700', textAlign:'center'}}>Passionate Community</Card.Title>
                 <Card.Text className='card-text'>
-                Join our passionate community and practice your French!
+                    Join our passionate community and practice your French!
                 </Card.Text>
                 </Card.Body>
             </Card>
