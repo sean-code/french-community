@@ -12,7 +12,7 @@
     margin-bottom: 40px;
   }
   .events-card{
-    border: 2px solid #2e952e;
+    border: 2px solid #2e952e95;
     margin: 10px 4px;
     transition: .6s ease;
   }
@@ -26,9 +26,10 @@
   }
   
   .scrollcards {
-    background-color: #fff;
+    background-color: #ffffffbc;
     overflow: auto;
     white-space: nowrap;
+    box-shadow: 1px 2px 5px #228356f0;
   }
   
   ::-webkit-scrollbar {
