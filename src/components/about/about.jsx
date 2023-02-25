@@ -28,7 +28,7 @@ const About = () => {
                 <Objectives />
             </section>
             <section>
-            <div className='view-button' style={{marginTop:'90px', marginBottom:'20px'}}>
+            <div className='view-button' style={{marginTop:'90px', marginBottom:'40px'}}>
                 <p>
                     <Link to="http://localhost:3000/services" target="_blank">
                         View Our Services ➤ 
