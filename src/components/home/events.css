@@ -1,3 +1,12 @@
+.events-header{
+  margin-top: 40px;
+  font-weight: 700;
+  text-align:center;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-decoration-thickness: 6px;
+}
+
 .events-section{
     margin-top: 40px;
   }
