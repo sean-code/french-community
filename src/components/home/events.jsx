@@ -3,7 +3,7 @@ import './events.css';
 const Events = () =>{
     return(
         <>
-            <h1 className='events-header'>Our Events</h1>
+            <h1 className='events-header'>OUR EVENTS</h1>
             <section className='events-section'>
                 <div className="container-fluid">
                     <div className="row">
