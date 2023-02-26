@@ -34,7 +34,7 @@ const Events = () =>{
                             <div className="events-card">
                                 <img className="card-img-top" src="https://cdn.dribbble.com/users/224000/screenshots/12483986/jkdc_holyfamilycommunitycenter-posters_4x.png" />
                                 <div className="card-block">
-                                <h4 className="card-title">Story Telling Catch-up</h4>
+                                <h4 className="card-title">Story Telling Catch-Up</h4>
                                 <p className="card-text">8th May 2023</p>
                                 </div>
                             </div>
@@ -58,8 +58,8 @@ const Events = () =>{
                             <div className="events-card">
                                 <img className="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4PRL2w05zGaCWw0pjGLZpn1TgvbJG9pnvNw&usqp=CAU" />
                                 <div className="card-block">
-                                <h4 className="card-title">Savannah Sipping Event</h4>
-                                <p className="card-text">2nd June 2023</p>
+                                    <h4 className="card-title">Savannah Sipping Event</h4>
+                                    <p className="card-text">2nd June 2023</p>
                                 </div>
                             </div>
                         </div>
