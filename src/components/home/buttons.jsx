@@ -10,7 +10,7 @@ const Buttons = () =>{
                 </Link>
             </p>
             <p>
-                <Link href="http://localhost:3000/about" target="_blank">
+                <Link to="http://localhost:3000/about" target="_blank">
                     View More About Us ➤ 
                 </Link>
             </p>
