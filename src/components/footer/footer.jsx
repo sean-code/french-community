@@ -12,12 +12,12 @@ const Footer = () =>{
                 <div className="footer-left">
                     <h3>French<span> Community</span></h3>
                 <p className="footer-links">
-                    <a href="#/" className="link-1">Home</a>
-                    <a href="#/">About</a>
-                    <a href="#/">Team</a>
-                    <a href="#/">Services</a>
-                    <a href="#/">Blog</a>
-                    <a href="#/">Contact</a>
+                    <a href="http://sean-code.github.io/french-community/#" className="link-1">Home</a>
+                    <a href="http://sean-code.github.io/french-community/#about">About</a>
+                    <a href="http://sean-code.github.io/french-community/#team">Team</a>
+                    <a href="http://sean-code.github.io/french-community/#services">Services</a>
+                    <a href="http://sean-code.github.io/french-community/#blog">Blog</a>
+                    <a href="http://sean-code.github.io/french-community/#about">Contact</a>
                 </p>
                 <p className="footer-company-name">French Community © 2023</p>
                 </div>
