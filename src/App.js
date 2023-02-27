@@ -1,7 +1,7 @@
 import NavBar from './components/navbar/navbar';
 import './App.css';
 import Home from './components/home/home';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import About from './components/about/about';
 import Team from './components/team/team';
 import Services from './components/services/services';
