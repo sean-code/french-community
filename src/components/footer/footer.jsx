@@ -49,6 +49,7 @@ const Footer = () =>{
                         <a href='#/'><img src={youtube} alt='youtube' /></a>
                     </div>
                 </div>
+                <p>Developed with 🫶 by <a href='http://github.com/sean-code' style={{textDecoration:'none', color:'white'}}>John Nganga</a></p>
             </footer>
         </>
     )
