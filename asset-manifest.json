@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/french-community/static/css/main.2b478e17.css",
-    "main.js": "/french-community/static/js/main.4b2c1f21.js",
+    "main.js": "/french-community/static/js/main.e88f807c.js",
     "index.html": "/french-community/index.html",
     "static/media/youtube.svg": "/french-community/static/media/youtube.24734262329576a568086e23cb7c163f.svg",
     "static/media/tiktok.svg": "/french-community/static/media/tiktok.13538183b06f6229877563a7ad310354.svg",
@@ -9,10 +9,10 @@
     "static/media/twitter.svg": "/french-community/static/media/twitter.d026da59c02bbb9462baa50b66c53445.svg",
     "static/media/facebook.svg": "/french-community/static/media/facebook.11faed1c07f23011e66ab38904b95fef.svg",
     "main.2b478e17.css.map": "/french-community/static/css/main.2b478e17.css.map",
-    "main.4b2c1f21.js.map": "/french-community/static/js/main.4b2c1f21.js.map"
+    "main.e88f807c.js.map": "/french-community/static/js/main.e88f807c.js.map"
   },
   "entrypoints": [
     "static/css/main.2b478e17.css",
-    "static/js/main.4b2c1f21.js"
+    "static/js/main.e88f807c.js"
   ]
 }
