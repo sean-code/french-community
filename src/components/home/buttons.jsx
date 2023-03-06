@@ -5,12 +5,12 @@ const Buttons = () =>{
     return(
         <div className='view-button'>
             <p>
-                <Link to="http://sean-code.github.io/french-community/#services" target="_self">
+                <Link to="https://sean-code.github.io/french-community/#/services" target="_self">
                     View Our Services ➤ 
                 </Link>
             </p>
             <p>
-                <Link to="http://sean-code.github.io/french-community/#about" target="_self">
+                <Link to="https://sean-code.github.io/french-community/#/about" target="_self">
                     View More About Us ➤ 
                 </Link>
             </p>
